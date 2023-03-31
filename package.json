@@ -1,23 +1,26 @@
 {
   "name": "ts-lab-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "[Instructions](https://docs.google.com/document/d/1w1g66huShVL3Q2adC2HlAxzp96hTgrDfhWZUe3GuVqU/preview)",
   "main": "src/index.ts",
+  "test": "module",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/index.ts",
+    "start": "ts-node",
     "start:dev": "nodemon src/index.ts",
-    "test": "jest",
-    "test:dev": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose"
   },
   "author": "Grand Circus Detroit",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.23",
-    "jest": "^27.0.4",
+    "jest": "^27.5.1",
     "nodemon": "^2.0.7",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
